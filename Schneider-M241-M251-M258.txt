@@ -1,0 +1,1 @@
+Schneider M241/M251/M258 and other models (fill in) use CoDeSys version 3. They support the UDP version of the protocol on UDP/1740, and the TCP version of the protocol on TCP/1105.
