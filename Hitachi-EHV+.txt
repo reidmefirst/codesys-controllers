@@ -1,0 +1,1 @@
+Hitachi EHV+ controllers use CoDeSys v3 on a Hitachi SH-2/SH-3 CPU line. A CPU-1025 was evaluated, which uses the CoDeSys v3.4 runtime. It only supports the UDP variant of the protocol, and lacks some features: chiefly it has no command shell module. This controller was evaluated prior to talks at DefCon 23 (see https://www.youtube.com/watch?v=-7tdfFRLBuY ).
