@@ -1,0 +1,1 @@
+Schneider Electric EcoStruxure (and presumably EcoStruxure Machine Expert) are CoDeSys version 3 under the hood. They use the CoDeSys Gateway Protocol on TCP/1217.
