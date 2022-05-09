@@ -1,5 +1,5 @@
 # codesys-controllers
-A list of all known CoDeSys PLCs, along with notes regarding what version, what protocols and ports are used on each.
+A list of all known CoDeSys PLCs and the related programming software along with notes regarding what version, what protocols and ports are used on each.
 ## background
 CoDeSys stands for _Co_ntroller _De_velopment _Sys_tem. It is a 61131 logic runtime used by many different vendors of PLCs. The software handles some programmatic tasks common to logic. While it is not a true operating system (it still relies on some other operating system to run the bare-metal of the PLC, such as vxworks or gnu/linux) it does offer plenty of operating system-like features, such as its own task list, scheduler, memory management, and binary file loader.
 
