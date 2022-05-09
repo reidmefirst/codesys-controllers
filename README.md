@@ -12,3 +12,5 @@ This repository aims to help identify PLCs and other automation controllers whic
 Some examples: CoDeSys version 2 controllers typically use TCP/1200 for communication. CoDeSys version 3 controllers typically use TCP/11740 and/or UDP/1740. Some vendors use different ports, and this repository should note that where possible.
 
 The controller list in this repo is based on archived data from 3S-Software (now the CoDeSys Group), which used to publish a list of all vendors that used the software.
+
+Since some vendors re-brand the CoDeSys engineering/programming software with their own name, it is worth explicitly mentioning these tools as well. Typically the engineering/programming software has a 'gateway' protocol on TCP/1217, which can be used to remotely access PLCs that are either on the engineering computer's local LAN (if using the non-routable UDP versions of the protocol) or is connected via some other means such as USB or serial links.
