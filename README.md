@@ -3,7 +3,7 @@ A list of all known CoDeSys PLCs and the related programming software along with
 ## background
 CoDeSys stands for _Co_ntroller _De_velopment _Sys_tem. It is a 61131 logic runtime used by many different vendors of PLCs. The software handles some programmatic tasks common to logic. While it is not a true operating system (it still relies on some other operating system to run the bare-metal of the PLC, such as vxworks or gnu/linux) it does offer plenty of operating system-like features, such as its own task list, scheduler, memory management, and binary file loader.
 
-A downside to this is that vulnerabilities and attack tools which target one PLC, may end up affecting hundreds of vendors. Such is the case with the Incontroller/Pipedream family of malware. While the malware targets one particular vendor (Schneider Electric), the tools may be modified ever-so-slightly to target all CoDeSys v3 controllers.
+A downside to this is that vulnerabilities and attack tools which target one PLC, may end up affecting hundreds of vendors. Since CoDeSys is responsible not only for (somewhat arbitrary) code execution, but also for some custom network protocols that lack authentication for most PLCs, it is a software suite that is ripe for abuse. Such is the case with the Incontroller/Pipedream family of malware. While the malware targets one particular vendor, the tools may be modified ever-so-slightly to target all CoDeSys v3 controllers.
 
 Past scanning and public exploit tools include the nmap scanning module for CoDeSys version 2.
 
