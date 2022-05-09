@@ -1,5 +1,5 @@
 # codesys-controllers
-A list of all known CoDeSys PLCs, along with notes regarding what version, what protocols and ports are used on each.
+A list of all known CoDeSys PLCs and the related programming software along with notes regarding what version, what protocols and ports are used on each.
 ## background
 CoDeSys stands for _Co_ntroller _De_velopment _Sys_tem. It is a 61131 logic runtime used by many different vendors of PLCs. The software handles some programmatic tasks common to logic. While it is not a true operating system (it still relies on some other operating system to run the bare-metal of the PLC, such as vxworks or gnu/linux) it does offer plenty of operating system-like features, such as its own task list, scheduler, memory management, and binary file loader.
 
@@ -12,3 +12,5 @@ This repository aims to help identify PLCs and other automation controllers whic
 Some examples: CoDeSys version 2 controllers typically use TCP/1200 for communication. CoDeSys version 3 controllers typically use TCP/11740 and/or UDP/1740. Some vendors use different ports, and this repository should note that where possible.
 
 The controller list in this repo is based on archived data from 3S-Software (now the CoDeSys Group), which used to publish a list of all vendors that used the software.
+
+Since some vendors re-brand the CoDeSys engineering/programming software with their own name, it is worth explicitly mentioning these tools as well. Typically the engineering/programming software has a 'gateway' protocol on TCP/1217, which can be used to remotely access PLCs that are either on the engineering computer's local LAN (if using the non-routable UDP versions of the protocol) or is connected via some other means such as USB or serial links.
