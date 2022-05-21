@@ -1,0 +1,1 @@
+ABB's Automation Builder software is based on CoDeSys, most likely version 2 since it programs the AC500 (which is itself a version 2.3 runtime). 
