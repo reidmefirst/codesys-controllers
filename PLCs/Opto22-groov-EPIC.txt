@@ -1,0 +1,1 @@
+Opto22 advertises that its groov EPIC controllers use CoDeSys runtime. Source: https://www.opto22.com/products/groov-epic-system/groov-epic-software/codesys-(iec-61131-3)
