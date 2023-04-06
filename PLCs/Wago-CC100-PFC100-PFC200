@@ -1,4 +1,4 @@
 - Wago Controllers can be found here 
   - https://www.wago.com/us/c/controllers-bus-couplers-i-o?f=%3Afacet_product_Produkthauptfunktion_5200%3APLC%20Controllers%3AresultType%3Aproduct&pageSize=20
 - CC100, and PFC200 supports Vanilla Codesys
-- PFC100 as of now still requires a seperate license to run Vanilla Codesys https://us.store.codesys.com/codesys-control-for-pfc100-sl.html
+- PFC100 as of now (2023-04-04) still requires a seperate license to run Vanilla Codesys https://us.store.codesys.com/codesys-control-for-pfc100-sl.html
